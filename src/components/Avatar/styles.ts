@@ -31,7 +31,7 @@ export const Title = styled.h2`
 `;
 
 export const InfoContainer = styled.div`
-  width: 40rem;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;

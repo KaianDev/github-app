@@ -1,8 +1,9 @@
 # React - GitHub App
 
-Projeto criado coom React.
+Projeto criado com React.
 
 ## Ferramentas utilizadas:
+
 - Typescript
 - Axios
 - StyledComponents

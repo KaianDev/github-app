@@ -11,11 +11,14 @@ export const Container = styled.ul`
 export const RepoItem = styled.li`
   width: 100%;
   border-radius: 0.5rem;
-
   padding: 1rem;
   display: flex;
   justify-content: space-between;
   gap: 0.5rem;
+
+  @media screen and (max-width: 698px) {
+    flex-direction: column;
+  }
 
   &:nth-child(even) {
     background-color: ${(props) => props.theme.colors.primary};
@@ -66,5 +69,14 @@ export const Link = styled.a`
   &:hover {
     opacity: 1;
     transform: scale(1.1);
+  }
+
+  @media screen and (max-width: 68.9rem) {
+    width: max-content;
+    align-self: flex-end;
+    
+    &:hover {
+      transform: scale(1);
+    }
   }
 `;
